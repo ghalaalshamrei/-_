@@ -1,0 +1,284 @@
+body{
+
+    margin:0;
+    padding:0;
+    direction:rtl;
+    font-family:Tahoma;
+    background:#f4f8fb;
+
+}
+
+/* الهيدر */
+
+header{
+
+    background:#6fa8dc;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 40px;
+
+}
+
+/* الشعار */
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:white;
+
+}
+.logo img{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+}
+
+.logo h2{
+
+    font-size:28px;
+
+}
+
+/* روابط */
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:10px;
+
+    font-size:18px;
+
+}
+
+nav a:hover{
+
+    color:#ffe599;
+
+}
+
+/* الصفحة الرئيسية */
+
+.hero{
+
+    text-align:center;
+
+    padding:100px 20px;
+
+}
+.hero h1{
+    font-size:42px;
+
+    color:#2c3e50;
+}
+
+.hero p{
+
+    width:70%;
+
+    margin:auto;
+
+    line-height:2;
+
+    font-size:20px;
+
+    color:#555;
+
+}
+
+/* زر */
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:25px;
+
+    background:#6fa8dc;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 30px;
+
+    border-radius:10px;
+
+}
+
+.btn:hover{
+
+    background:#4a86c5;
+
+}
+
+/* الكروت */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+.card{
+    width:280px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#4a86c5;
+}
+
+/* صفحات الدخول */
+
+.form-container{
+
+    width:350px;
+
+    background:white;
+
+    padding:30px;
+
+    margin:100px auto;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+}
+
+/* شعار الفورم */
+
+.form-logo{
+
+    width:100px;
+
+    margin-bottom:10px;
+
+}
+
+/* الحقول */
+
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:10px 0;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+
+}
+
+/* الأزرار */
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#6fa8dc;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#4a86c5;
+
+}
+
+/* الرجوع */
+
+.back{
+
+    display:block;
+
+    margin-top:15px;
+
+    color:#4a86c5;
+
+    text-decoration:none;
+
+}
+
+/* صفحة القصص */
+
+.stories{
+
+    text-align:center;
+
+    padding:50px;
+
+}
+
+.story-box{
+
+    width:70%;
+
+    background:white;
+
+    margin:20px auto;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.story-box h2{
+
+    color:#4a86c5;
+
+}
+
+/* الفوتر */
+
+footer{
+
+    background:#6fa8dc;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+    margin-top:40px;
+
+}
